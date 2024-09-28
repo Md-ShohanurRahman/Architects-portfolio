@@ -1,9 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-
+/* shared style  */
+.display_flex{
+    display: flex;
+}
+/* header  style  */
 .work-sans-font_family{
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+.navbar{
+   
+    justify-content: space-between;
+}
+.nav_links {
+    border: 1px solid red ;
+   
+}
+.nav_item {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav_links a {
+    text-decoration: none;
+}
+ /* main style  */
+
+ /* footer  style */
