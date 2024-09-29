@@ -202,7 +202,18 @@ main{
     font-weight: 500;
     font-size: 1.25rem;
 }
-
+/* styles for footer  */
+footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 244, 231, 1);
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 /* responsive media query  */
 
