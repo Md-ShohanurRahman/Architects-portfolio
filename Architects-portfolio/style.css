@@ -156,14 +156,36 @@ main{
      .teams{
         flex-direction: column;
     }
-    .team_image_container{
+    .team_image_container,.fact_card_container{
         grid-template-columns: repeat(1,1fr);
     }
+    .fact_card_container{
+       
+        gap: 20px;
+        place-items: center;
+     
+
+        
+    }
+    .fact_card{
+        justify-content: center;
+    }
+    
     .our_features{
         margin-left: 40px;
       
     }
+    .fact_description{
+        width: 500px;
+        margin-left: 20px;
+    }
+    .section_title {
+        margin-left: 20px;
+    }
 
+}
+*{
+    /* border: 1px solid red; */
 }
 /* medium device media query */
 @media screen and (min-width:576px) and (max-width:992px) {
