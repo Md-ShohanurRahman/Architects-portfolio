@@ -214,6 +214,10 @@ footer{
     margin-top: 100px;
     margin-bottom: 100px;
 }
+*{
+    border: 1px solid red;
+  }
+
 
 /* responsive media query  */
 
@@ -251,7 +255,10 @@ footer{
       
     }
     .fact_description{
-        width: 500px;
+        max-width: 300px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: auto;
         margin-left: 20px;
     }
     .section_title {
@@ -273,10 +280,15 @@ footer{
       margin-left: 80px;
       
     }
+    body{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    *{
+        border: 1px solid red;
+      }
 }
-*{
-    /* border: 1px solid red; */
-}
+
 /* medium device media query */
 @media screen and (min-width:576px) and (max-width:992px) {
     .teams,
@@ -309,8 +321,8 @@ footer{
         margin-left: 290px;
         
       }
-}
+    }
+     
 
- /* main style  */
 
- /* footer  style */
+
