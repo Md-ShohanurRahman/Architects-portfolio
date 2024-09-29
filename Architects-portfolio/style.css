@@ -278,13 +278,8 @@ footer{
       margin-left: 80px;
       
     }
-    body{
-        max-width: 350px;
-        margin: 0 auto;
-    }
-    *{
-        border: 1px solid red;
-      }
+ 
+   
 }
 
 /* medium device media query */
